@@ -28,7 +28,7 @@ a{
   color: white;
 }
 ul,p{
-    font-size: clamp(1rem, 3rerm, 1.75rem);
+    font-size: clamp(2rem, 5rerm, 2rem);
     color: white;
 }
 
