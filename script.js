@@ -34,7 +34,12 @@ function addReposToCard(repos) {
 function createUserCard(user) {
     const cardHTML = `
         <div class="card">
+        <div>
+            <div float="left" class="align_div">
+                <img class="avatar" src="${user.avatar_url}" alt="${user.name}" height="150" width="150" style="background-color: none;"/>
+            </div>
             <div class="user-info">
+            <div float="right" class="align_div">
                 <h2>${user.name}</h2>
                 <p>${user.bio}</p>
                 <ul id="horizontal-list" class="info">
@@ -42,6 +47,8 @@ function createUserCard(user) {
                     <li><strong>Following :</strong>${user.following}</li>
                     <li><strong>Repos :</strong>${user.public_repos}</li>
                 </ul>
+                </div>
+                </div>
                 <div id="repos"></div>
             </div>
         </div>
