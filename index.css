@@ -1,7 +1,3 @@
-li{
-    list-style-type:initial;
-}
-
 h1,h4 {
   font-family: "limelight";
   font-size: clamp(30px, 9.7vw, 55px);
