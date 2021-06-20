@@ -70,7 +70,7 @@ input::placeholder {
 }
 
 .card {
-  background-image:linear-gradient(rgb(38, 42, 46),black);
+  background-image:linear-gradient(rgb(31, 34, 37),black);
   text-align: center;
 
   ;
@@ -78,13 +78,13 @@ input::placeholder {
 
 .avatar {
   color: white;
-  background-image:linear-gradient(rgb(38, 42, 46),black);
+  background-image:linear-gradient(rgb(31, 34, 37),black);
   text-align: center;
   color: white;
 }
 
 .user-info {
-  background-image:linear-gradient(rgb(38, 42, 46),black);
+  background-image:linear-gradient(rgb(31, 34, 37),black);
   color:white;
   text-align: center;
 }
